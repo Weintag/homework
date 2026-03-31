@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Форма обратной связи</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<form class="form">
+			<fieldset class="form-group">
+				<h2>Ваши личные данные</h2>
+				<label for="name" class="label">
+					<p class="form-group-title">Ваше имя</p>
+					<input
+						type="text"
+						id="name"
+						name="name"
+						placeholder="Имя"
+						class="input"
+						required
+					/>
+				</label>
+				<label for="age" class="label">
+					<p class="form-group-title">Ваш возраст</p>
+					<input
+						type="number"
+						id="age"
+						name="age"
+						placeholder="Возраст"
+						class="input"
+						required
+					/>
+				</label>
+				<label for="phone" class="label">
+					<p class="form-group-title">Ваш номер телефона</p>
+					<input
+						type="tel"
+						id="phone"
+						name="phone"
+						placeholder="Номер телефона"
+						class="input"
+						required
+					/>
+				</label>
+				<label for="email" class="label">
+					<p class="form-group-title">Ваша почта</p>
+					<input
+						type="email"
+						id="email"
+						name="email"
+						placeholder="Почта"
+						class="input"
+						required
+					/>
+				</label>
+				<label for="message" class="label">
+					<p class="form-group-title">Сообщение</p>
+					<textarea name="message" id="message" class="textarea"></textarea>
+				</label>
+			</fieldset>
+			<fieldset class="form-group">
+				<label for="rules">
+					<input type="checkbox" name="rules" class="checkbox" required/>
+					Я принимаю правила
+				</label>
+			</fieldset>
+			<button class="button">Отправить</button>
+		</form>
+	</body>
+</html>
