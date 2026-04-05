@@ -1,0 +1,45 @@
+html {
+	font-family: sans-serif;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.container {
+	max-width: 1400px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	max-width: 100px;
+	width: 100%;
+}
+
+.head_cont {
+	display: flex;
+	gap: 20px;
+}
+
+#navigation {
+    color: black;
+    font-weight: 600;
+}
+
+.line {
+	max-width: 1400px;
+	border: 1px solid #666;
+}
