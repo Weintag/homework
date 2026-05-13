@@ -1,7 +1,7 @@
 // Задача 1.
 // Напишите условие, которое будет проверять чётное ли число, используйте оператор if.
 
-const number = prompt("Введите число");
+const number = +prompt("Введите число");
 
 if (number % 2 === 0) {
   console.log("Число четное");
@@ -31,7 +31,7 @@ if (number % 2 === 0) {
 //   console.log(`Скидка отсутствует`);
 // }
 
-const age = prompt("Введите возраст");
+const age = +prompt("Введите возраст");
 
 let discount;
 
@@ -63,7 +63,7 @@ switch (true) {
 const username = prompt("Введите имя");
 const password = prompt("Введите пароль");
 
-if (username === "admin" || (username === "user" && password === "123456")) {
+if ((username === "admin" || username === "user") && password === "123456") {
   console.log("Доступ разрешен");
 } else {
   console.log("Доступ запрещен");
