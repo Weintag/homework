@@ -3,8 +3,9 @@
 
 for (let i = 1; i <= 20; i++) {
 	if (i % 4 === 0) {
-		console.log("Число без остатка кратно 4:", i);
+		continue;
 	}
+	console.log(i);
 }
 
 // Задача 2.
