@@ -1,0 +1,34 @@
+:root {
+  /* font-family */
+  --font-family: "Inter", sans-serif;
+  --second-family: "ReadexPro", sans-serif;
+
+  /* colors */
+  --main-color: #000;
+  --accent-color: #ffffff;
+  --accent-glow-color: #0000004d;
+  --bg-color: #fff;
+  --secondary-color: #DCE5E2;
+  --shadow-color: #000;
+  --overlay: #0000004d;
+
+
+  /* shadows */
+  --shadow-glow: 0 0 6px 2px var(--main-glow-color);
+  --shadow-accent-glow: 0 0 6px 2px var(--accent-glow-color);
+  --shadow-disabled-glow: 0 0 6px 2px var(--disabled-glow-color);
+
+  /* container */
+  --container-width: 1240px;
+  --container-padding: 15px;
+
+  /* transitions */
+  --transition-time: 0.3s;
+  
+  /* layers */
+  --layer-negative: -1;
+  --layer-0: 0;
+  --layer-1: 1;
+  --layer-2: 2;
+  --layer-3: 3;
+}
