@@ -1,0 +1,112 @@
+/*!
+Theme Name: AI Tutor
+Theme URI: https://www.thealphablocks.com/themes/ai-tutor/
+Author: Abu Turab
+Author URI: https://www.thealphablocks.com/
+Description: AI Tutor is a modern website theme designed with a clean layout and structured content sections for educational and learning-focused websites. The theme includes responsive design support, customizable homepage sections, banner areas, course-related layouts, testimonial sections, and integrated blog styling. It is compatible with Gutenberg and supports easy content editing through block-based customization. The layout structure is optimized for readability across desktop, tablet, and mobile devices. AI Tutor also includes organized typography, navigation menus, call-to-action areas, and footer widget sections for displaying additional information. The code structure is lightweight and designed for smooth performance and faster loading times. Multiple customization options are available through the customizer, allowing changes to colors, fonts, logos, and layout settings without modifying code. The theme supports popular plugins and standard page-building tools, making it adaptable for different types of educational websites while maintaining a consistent and organized appearance.
+Requires at least: 6.0
+Tested up to: 7.0
+Requires PHP: 5.6
+Version: 1.0
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: ai-tutor
+Template: school-classroom
+Tags: one-column, two-columns,three-columns, four-columns, left-sidebar, right-sidebar, grid-layout, wide-blocks, custom-background, custom-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, full-width-template, featured-image-header, footer-widgets, block-patterns, block-styles, rtl-language-support, sticky-post, style-variations, threaded-comments, theme-options, translation-ready, portfolio, blog, education
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+AI Tutor WordPress Theme is child theme of School Classroom WordPress Theme, Copyright 2026 Abu Turab
+AI Tutor is distributed under the terms of the GNU General Public License v3 or later
+
+School Classroom is based on Twenty Twenty-Two WordPress Theme, (C) 2024 WordPress.org
+Twenty Twenty-Two is distributed under the terms of the GNU GPL.
+*/
+
+.slider h2 {
+  max-width: 80%;
+}
+.slider-upper.owl-carousel .owl-dot {
+  width: 14px;
+  height: 14px;
+}
+.team-section .wp-block-social-link a {
+  padding: 8px;
+}
+.team-section .wp-block-social-link {
+  border-radius: 10px;
+}
+.team-section .team-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.team-section .team-img {
+  position: relative;
+}
+.team-section .team-img .wp-block-social-links {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  visibility: hidden;
+  transition: 0.5s all ease-in-out;
+}
+.team-section .team-box:hover .team-img .wp-block-social-links {
+  visibility: visible;
+}
+.team-section a {
+  text-decoration: none !important;
+}
+.team-section .owl-nav {
+  position: absolute;
+  top: 40%;
+  left: -30px;
+  right: -30px;
+  display: flex;
+  justify-content: space-between;
+}
+.team-section .owl-nav button {
+  padding: 18px 21px !important;
+  border-radius: 50%;
+  background: #fff !important;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  color: #292D32 !important;
+  width: auto;
+  height: auto;
+  line-height: 1 !important;
+}
+.wp-block-navigation__responsive-container-close, .wp-block-navigation__responsive-container-open {
+  color: #fff;
+}
+.team-section figure, .product-box figure, .home-blog-section figure {
+  overflow: hidden;
+}
+.home figure img {
+  transition: 0.5s all ease-in-out;
+}
+.home figure img:hover {
+    transform: scale(1.1);
+}
+@media screen and (max-width: 768px) {
+  .slider h2 {
+    max-width: 100%;
+  }
+  .tab-buttons {
+    display: flex !important;
+  }
+  .story-section .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+    flex-basis: 47% !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .tab-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .header-search-upper .wp-block-search__inside-wrapper .wp-block-search__input {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+  }
+}
